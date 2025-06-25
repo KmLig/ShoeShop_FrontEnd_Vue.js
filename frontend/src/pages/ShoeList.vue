@@ -12,17 +12,17 @@ import { Shoe } from '../types/Shoe';
 const shoes = ref<Shoe[]>([
   {
     id: 1,
-    name: 'Air Max 90',
-    description: 'Nike running shoes',
-    price: 3200000,
-    image: 'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto/68b2be0f-9e68-45cb-a02a-5d61721259aa/air-max-90-shoes.png'
+    name: 'Urban Sneakers',
+    description: 'Modern street-style sneakers for everyday comfort.',
+    price: 2200000,
+    image: 'https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: 2,
-    name: 'Ultraboost 23',
-    description: 'Adidas comfort shoes',
-    price: 3500000,
-    image: 'https://assets.adidas.com/images/w_600,f_auto,q_auto/da9a33f4a6244309b4a8af0c0145db0c_9366/Ultraboost_23_Shoes_White_IG5000_01_standard.jpg'
+    name: 'Classic Canvas',
+    description: 'Lightweight and breathable canvas shoes.',
+    price: 1800000,
+    image: 'https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=800'
   }
 ])
 </script>
