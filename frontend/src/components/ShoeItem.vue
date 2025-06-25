@@ -4,7 +4,7 @@
         <div class="p-4">
             <h3 class="text-lg font-medium text-gray-900">{{ shoe.name }}</h3>
             <p class="text-gray-600">{{ shoe.description }}</p>
-            <p class="text-gray-600">{{ shoe.price }}</p>
+            <p class="text-gray-600">{{ shoe.price.toLocaleString() }}</p>
         </div>
     </div>
 </template>
