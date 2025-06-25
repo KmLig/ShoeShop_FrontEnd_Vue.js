@@ -7,9 +7,9 @@
       <div class="container mx-auto flex justify-between items-center">
         <!-- Left menu -->
         <div class="flex gap-6">
-          <a href="/" class="text-white hover:text-gray-300 font-medium">Home</a>
-          <a href="/about" class="text-white hover:text-gray-300 font-medium">About</a>
-          <a href="/contact" class="text-white hover:text-gray-300 font-medium">Contact</a>
+          <router-link to="/" class="text-white hover:text-gray-300 font-medium">Home</router-link>
+          <router-link to="/about" class="text-white hover:text-gray-300 font-medium">About</router-link>
+          <router-link to="/contact" class="text-white hover:text-gray-300 font-medium">Contact</router-link>
         </div>
         <!-- Right logo -->
         <div class="flex items-center">
