@@ -4,4 +4,6 @@ export interface Shoe {
     price: number;
     description: string;
     image: string;
+    brand: string;
+    size: number;
 }
